@@ -52,14 +52,6 @@ const Container = (props: Props) => {
                   <CiLinkedin size={24} />
                 </a>
               </li>
-              {/* <li>
-                <a
-                  href=""
-                  className="hover:opacity-100 opacity-75 transition ease-in duration-150"
-                >
-                  <MdOutlineEmail size={24} />
-                </a>
-              </li> */}
             </ul>
             <a
               href="mailto:loagnadjou@gmail.com"
