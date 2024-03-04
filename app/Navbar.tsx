@@ -11,7 +11,7 @@ const Navbar = (props: Props) => {
     <div className="flex items-center justify-between  flex-nowrap w-full pb-3 border-b-[1px] border-neutral-500">
       <div className="sm:text-3xl text-xl font-bold inline-block">
         <a href="/" className="inline-block">
-          Sattu
+          Loa
         </a>
       </div>
       <div className="sm:hidden" onClick={() => setShowNav(!showNav)}>
