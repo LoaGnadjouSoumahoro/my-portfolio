@@ -29,7 +29,7 @@ const Navbar = (props: Props) => {
             }`}
           >
             <a href="#services" className="px-2">
-              Services
+              About me
             </a>
           </li>
           <li
