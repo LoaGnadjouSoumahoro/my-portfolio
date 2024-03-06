@@ -13,15 +13,36 @@ const Projets = (props: Props) => {
       </p>
       <div className="mt-20 md:w-9/12 mx-auto">
         <img
-          src=""
-          alt=""
+          src="getflix.png"
+          alt="Getflex projet"
           className="rounded-xl opacity-95 hover:opacity-100"
         />
         <div className="my-10 sm:10/12 mx-auto">
           <h1 className="text-2xl font-bold mb-4">Bookface</h1>
-          <p className="text-neutral-300">
+          {/* <p className="text-neutral-300">
             Boookface is design whith Nextjs, Material UI
-          </p>
+          </p> */}
+          <a
+            href=""
+            className="flex items-center px-4 py-1 border-[0.5] border-slate-500
+"
+          >
+            Explore
+            <TfiArrowTopRight className="ml-2" size={14} />
+          </a>
+        </div>
+      </div>
+      <div className="mt-20 md:w-9/12 mx-auto">
+        <img
+          src="pizza-menu-image-site.png"
+          alt="Getflex projet"
+          className="rounded-xl opacity-95 hover:opacity-100"
+        />
+        <div className="my-10 sm:10/12 mx-auto">
+          <h1 className="text-2xl font-bold mb-4">Pizza Menu</h1>
+          {/* <p className="text-neutral-300">
+            Boookface is design whith Nextjs, Material UI
+          </p> */}
           <a
             href=""
             className="flex items-center px-4 py-1 border-[0.5] border-slate-500
